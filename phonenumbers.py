@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
 
 import phonenumbers
 from phonenumbers import carrier, geocoder,timezone
@@ -17,7 +12,7 @@ print("Valid Mobile Number : ",phonenumbers.is_valid_number(mobileNo))
 print("cheaking possibility of number:",phonenumbers.is_possible_number(mobileNo))
 
 
-# In[ ]:
+#
 
 
 
